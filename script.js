@@ -46,7 +46,7 @@
         }
 
         const TARGET_KEY = 'gameBoardTimeElapsed';
-        const NEW_VALUE_OBJ = { type: 'bigint', value: '3000' };
+        const NEW_VALUE_OBJ = { type: 'bigint', value: '2000' };
 
         const update = (arr, label) => {
           if (!Array.isArray(arr)) {
