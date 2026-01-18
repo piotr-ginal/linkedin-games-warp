@@ -85,6 +85,18 @@
     return ROUTES.find(r => url.includes(r.match)) || null;
   }
 
+  function tryParseJson(text) {
+    if (typeof text !== 'string') return null;
+    const t = text.trim();
+    if (!t || (t[0] !== '{' && t[0] !== '[')) return null;
+
+    try {
+      return JSON.parse(t);
+    } catch {
+      return null;
+    }
+  }
+
   const originalFetch = window.fetch;
 
   window.fetch = async function patchedFetch(input, init) {
@@ -100,12 +112,10 @@
     console.info('[TM rewrite] captured matching fetch:', { url, method, match: route.match });
 
     const bodyText = await req.clone().text();
+    const json = tryParseJson(bodyText);
 
-    let json;
-    try {
-      json = JSON.parse(bodyText);
-    } catch {
-      console.info('[TM rewrite] body is not valid JSON; skipping rewrite');
+    if (json === null) {
+      console.info('[TM rewrite] fetch body not JSON; skipping rewrite');
       return originalFetch(input, init);
     }
 
@@ -116,5 +126,45 @@
     newHeaders.set('content-type', 'application/json;charset=UTF-8');
 
     return originalFetch(new Request(req, { headers: newHeaders, body: newBodyText }));
+  };
+
+  const originalOpen = XMLHttpRequest.prototype.open;
+  const originalSend = XMLHttpRequest.prototype.send;
+
+  XMLHttpRequest.prototype.open = function patchedOpen(method, url, async, user, password) {
+    this.__tm = {
+      method: String(method || 'GET').toUpperCase(),
+      url: String(url || ''),
+    };
+    return originalOpen.call(this, method, url, async, user, password);
+  };
+
+  XMLHttpRequest.prototype.send = function patchedSend(body) {
+    const meta = this.__tm;
+    const url = meta?.url || '';
+    const method = meta?.method || 'GET';
+
+    const route = findRoute(url);
+    if (!route || method === 'GET' || method === 'HEAD') {
+      return originalSend.call(this, body);
+    }
+
+    console.info('[TM rewrite] captured matching XHR:', { url, method, match: route.match });
+
+    if (typeof body !== 'string') {
+      console.info('[TM rewrite] XHR body is not a string; skipping rewrite');
+      return originalSend.call(this, body);
+    }
+
+    const json = tryParseJson(body);
+    if (json === null) {
+      console.info('[TM rewrite] XHR body not JSON; skipping rewrite');
+      return originalSend.call(this, body);
+    }
+
+    const rewritten = route.transformPayload(json, { url, transport: 'xhr', method });
+    const newBodyText = JSON.stringify(rewritten);
+
+    return originalSend.call(this, newBodyText);
   };
 })();
