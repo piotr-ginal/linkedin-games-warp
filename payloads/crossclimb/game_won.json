@@ -1,0 +1,61 @@
+{
+	"queryId": "voyagerIdentityDashGames.f8508525e36bee5f9a5ab6b637854d87",
+	"variables": {
+		"entity": {
+			"entity": {
+				"gameStoredRecord": {
+					"gamePlayState": "END_SOLVED",
+					"gameStateUnion": {
+						"crossClimbGameState": [
+							{
+								"clue": "The top + bottom rows = Two parts of the body that are involved in breathing, one singular and one plural. Keep in mind: The first word may be at the bottom.",
+								"guess": "S&-*I&-*N&-*u&-*S",
+								"solutionRungIndex": 0,
+								"word": "sinus"
+							},
+							{
+								"clue": "Certain curves used in trigonometry",
+								"guess": "s&-*i&-*n&-*e&-*s",
+								"solutionRungIndex": 1,
+								"word": "sines"
+							},
+							{
+								"clue": "They’re kept in cellars and often paired with meals",
+								"guess": "w&-*i&-*n&-*e&-*s",
+								"solutionRungIndex": 2,
+								"word": "wines"
+							},
+							{
+								"clue": "Parts of a bird, or Paul McCartney’s band after the Beatles broke up",
+								"guess": "w&-*i&-*n&-*g&-*s",
+								"solutionRungIndex": 3,
+								"word": "wings"
+							},
+							{
+								"clue": "They can show a tree’s age",
+								"guess": "r&-*i&-*n&-*g&-*s",
+								"solutionRungIndex": 4,
+								"word": "rings"
+							},
+							{
+								"clue": "Steps on a ladder",
+								"guess": "r&-*u&-*n&-*g&-*s",
+								"solutionRungIndex": 5,
+								"word": "rungs"
+							},
+							{
+								"clue": "The top + bottom rows = Two parts of the body that are involved in breathing, one singular and one plural. Keep in mind: The first word may be at the bottom.",
+								"guess": "l&-*u&-*n&-*g&-*s",
+								"solutionRungIndex": 6,
+								"word": "lungs"
+							}
+						]
+					},
+					"isFlawless": false,
+					"timeElapsed": 2
+				}
+			},
+			"resourceKey": "urn:li:fsd_game:(ACoAAFCCtoIBERNjl2qb4Wn8lXPhV8zDhhL2MS0,2,628)"
+		}
+	}
+}
