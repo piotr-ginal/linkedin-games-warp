@@ -1,9 +1,15 @@
 // ==UserScript==
 // @name         Linkeding games warp
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/piotr-ginal
 // @version      1.0.0
 // @description  Stop time when solving the daily linkedin puzzles
+// @author       Piotr Ginał <https://github.com/piotr-ginal>
+// @homepageURL  https://github.com/piotr-ginal/linkedin-games-warp
+// @supportURL   https://github.com/piotr-ginal/linkedin-games-warp/issues
 // @match        https://www.linkedin.com/games/*
+// @updateURL    https://raw.githubusercontent.com/piotr-ginal/linkedin-games-warp/refs/heads/main/script.js
+// @downloadURL  https://raw.githubusercontent.com/piotr-ginal/linkedin-games-warp/refs/heads/main/script.js
+// @license      MIT
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
