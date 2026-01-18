@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Localhost: rewrite JSON payload for voyagerIdentityDashGames
+// @name         Linkeding games warp
 // @namespace    http://tampermonkey.net/
 // @version      1.0.0
-// @description  Intercept fetch/XHR on localhost and rewrite JSON payload for matching requests.
+// @description  Stop time when solving the daily linkedin puzzles
 // @match        https://www.linkedin.com/games/*
 // @grant        none
 // @run-at       document-start
