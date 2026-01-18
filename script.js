@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Linkeding games warp
+// @name         Linkedin games warp
 // @namespace    https://github.com/piotr-ginal
 // @version      1.0.0
 // @description  Stop time when solving the daily linkedin puzzles
