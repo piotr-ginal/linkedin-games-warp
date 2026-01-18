@@ -1,0 +1,477 @@
+{
+	"requestedArguments": {
+		"$type": "proto.sdui.actions.requests.RequestedArguments",
+		"payload": {
+			"gameTypeId": "5",
+			"isBonusGame": false,
+			"isFlawless": {
+				"key": "gameIsFlawlessBinding",
+				"namespace": "MemoryNamespace"
+			},
+			"isGameEnded": {
+				"key": "gameBoardHasWon",
+				"namespace": "MemoryNamespace"
+			},
+			"playRecord": {
+				"key": "tangoBoardStateBinding",
+				"namespace": "MemoryNamespace"
+			},
+			"profileId": {
+				"key": "gameBoardProfileId",
+				"namespace": "MemoryNamespace"
+			},
+			"puzzleId": {
+				"key": "gameBoardPuzzleId",
+				"namespace": "MemoryNamespace"
+			},
+			"solveOrder": {
+				"key": "tangoSolveOrderBinding",
+				"namespace": "MemoryNamespace"
+			},
+			"timeElapsed": {
+				"key": "gameBoardTimeElapsed",
+				"namespace": "MemoryNamespace"
+			},
+			"totalPlaysCount": {
+				"key": "gameBoardTotalPlaysCount",
+				"namespace": "MemoryNamespace"
+			}
+		},
+		"requestedStateKeys": [
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameBoardPuzzleId"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameBoardPuzzleId"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameBoardProfileId"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameBoardProfileId"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameBoardHasWon"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameBoardHasWon"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameBoardTimeElapsed"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameBoardTimeElapsed"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameBoardTotalPlaysCount"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameBoardTotalPlaysCount"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameIsFlawlessBinding"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameIsFlawlessBinding"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "tangoBoardStateBinding"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "tangoBoardStateBinding"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "tangoSolveOrderBinding"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "tangoSolveOrderBinding"
+			}
+		],
+		"requestMetadata": {
+			"$type": "proto.sdui.common.RequestMetadata"
+		},
+		"screenId": "com.linkedin.sdui.flagshipnav.home.Home",
+		"states": [
+			{
+				"key": "gameBoardPuzzleId",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "longValue",
+				"value": {
+					"type": "bigint",
+					"value": "468"
+				}
+			},
+			{
+				"key": "gameBoardProfileId",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "stringValue",
+				"value": "ACoAAFCCtoIBERNjl2qb4Wn8lXPhV8zDhhL2MS0"
+			},
+			{
+				"key": "gameBoardHasWon",
+				"namespace": "MemoryNamespace",
+				"value": false
+			},
+			{
+				"key": "gameBoardTimeElapsed",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "longValue",
+				"value": {
+					"type": "bigint",
+					"value": "3000"
+				}
+			},
+			{
+				"key": "gameBoardTotalPlaysCount",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "intValue",
+				"value": 143
+			},
+			{
+				"key": "gameIsFlawlessBinding",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "booleanValue",
+				"value": true
+			},
+			{
+				"key": "tangoBoardStateBinding",
+				"namespace": "MemoryNamespace",
+				"value": [
+					"EMPTY",
+					"EMPTY",
+					"ZERO",
+					"ONE",
+					"ZERO",
+					"ONE",
+					"EMPTY",
+					"ONE",
+					"ZERO",
+					"ZERO",
+					"ONE",
+					"ZERO",
+					"EMPTY",
+					"EMPTY",
+					"ONE",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY",
+					"EMPTY"
+				]
+			}
+		]
+	},
+	"requestId": "updateGameState",
+	"serverRequest": {
+		"$type": "proto.sdui.actions.core.ServerRequest",
+		"isApfcEnabled": false,
+		"isStreaming": false,
+		"requestedArguments": {
+			"$type": "proto.sdui.actions.requests.RequestedArguments",
+			"payload": {
+				"gameTypeId": "5",
+				"isBonusGame": false,
+				"isFlawless": {
+					"key": "gameIsFlawlessBinding",
+					"namespace": "MemoryNamespace"
+				},
+				"isGameEnded": {
+					"key": "gameBoardHasWon",
+					"namespace": "MemoryNamespace"
+				},
+				"playRecord": {
+					"key": "tangoBoardStateBinding",
+					"namespace": "MemoryNamespace"
+				},
+				"profileId": {
+					"key": "gameBoardProfileId",
+					"namespace": "MemoryNamespace"
+				},
+				"puzzleId": {
+					"key": "gameBoardPuzzleId",
+					"namespace": "MemoryNamespace"
+				},
+				"solveOrder": {
+					"key": "tangoSolveOrderBinding",
+					"namespace": "MemoryNamespace"
+				},
+				"timeElapsed": {
+					"key": "gameBoardTimeElapsed",
+					"namespace": "MemoryNamespace"
+				},
+				"totalPlaysCount": {
+					"key": "gameBoardTotalPlaysCount",
+					"namespace": "MemoryNamespace"
+				}
+			},
+			"requestedStateKeys": [
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameBoardPuzzleId"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameBoardPuzzleId"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameBoardProfileId"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameBoardProfileId"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameBoardHasWon"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameBoardHasWon"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameBoardTimeElapsed"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameBoardTimeElapsed"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameBoardTotalPlaysCount"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameBoardTotalPlaysCount"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameIsFlawlessBinding"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameIsFlawlessBinding"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "tangoBoardStateBinding"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "tangoBoardStateBinding"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "tangoSolveOrderBinding"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "tangoSolveOrderBinding"
+				}
+			],
+			"requestMetadata": {
+				"$type": "proto.sdui.common.RequestMetadata"
+			}
+		},
+		"requestId": "updateGameState",
+		"rumPageKey": ""
+	},
+	"states": [
+		{
+			"key": "gameBoardPuzzleId",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "longValue",
+			"value": {
+				"type": "bigint",
+				"value": "468"
+			}
+		},
+		{
+			"key": "gameBoardProfileId",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "stringValue",
+			"value": "ACoAAFCCtoIBERNjl2qb4Wn8lXPhV8zDhhL2MS0"
+		},
+		{
+			"key": "gameBoardHasWon",
+			"namespace": "MemoryNamespace",
+			"value": false
+		},
+		{
+			"key": "gameBoardTimeElapsed",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "longValue",
+			"value": {
+				"type": "bigint",
+				"value": "3000"
+			}
+		},
+		{
+			"key": "gameBoardTotalPlaysCount",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "intValue",
+			"value": 143
+		},
+		{
+			"key": "gameIsFlawlessBinding",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "booleanValue",
+			"value": true
+		},
+		{
+			"key": "tangoBoardStateBinding",
+			"namespace": "MemoryNamespace",
+			"value": [
+				"EMPTY",
+				"EMPTY",
+				"ZERO",
+				"ONE",
+				"ZERO",
+				"ONE",
+				"EMPTY",
+				"ONE",
+				"ZERO",
+				"ZERO",
+				"ONE",
+				"ZERO",
+				"EMPTY",
+				"EMPTY",
+				"ONE",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY",
+				"EMPTY"
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"queryId": "voyagerIdentityDashGames.f8508525e36bee5f9a5ab6b637854d87",
+	"variables": {
+		"entity": {
+			"entity": {
+				"gameStoredRecord": {
+					"gamePlayState": "IN_PROGRESS",
+					"gameStateUnion": {
+						"miniSudokuGameState": [
+							{
+								"cellContentUnion": {
+									"cellValue": 5
+								},
+								"cellIdx": 19
+							}
+						]
+					},
+					"isFlawless": false,
+					"timeElapsed": 152
+				}
+			},
+			"resourceKey": "urn:li:fsd_game:(ACoAAFCCtoIBERNjl2qb4Wn8lXPhV8zDhhL2MS0,7,160)"
+		}
+	}
+}

@@ -1,0 +1,491 @@
+{
+	"requestedArguments": {
+		"$type": "proto.sdui.actions.requests.RequestedArguments",
+		"payload": {
+			"gameTypeId": "6",
+			"isBonusGame": false,
+			"isFlawless": {
+				"key": "gameIsFlawlessBinding",
+				"namespace": "MemoryNamespace"
+			},
+			"isGameEnded": {
+				"key": "gameBoardHasWon",
+				"namespace": "MemoryNamespace"
+			},
+			"numBacktracks": {
+				"key": "zipNumBacktracksBinding",
+				"namespace": "MemoryNamespace"
+			},
+			"playRecord": {
+				"key": "zipGamePathBinding",
+				"namespace": "MemoryNamespace"
+			},
+			"profileId": {
+				"key": "gameBoardProfileId",
+				"namespace": "MemoryNamespace"
+			},
+			"puzzleId": {
+				"key": "gameBoardPuzzleId",
+				"namespace": "MemoryNamespace"
+			},
+			"timeElapsed": {
+				"key": "gameBoardTimeElapsed",
+				"namespace": "MemoryNamespace"
+			},
+			"totalPlaysCount": {
+				"key": "gameBoardTotalPlaysCount",
+				"namespace": "MemoryNamespace"
+			}
+		},
+		"requestedStateKeys": [
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameBoardPuzzleId"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameBoardPuzzleId"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameBoardProfileId"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameBoardProfileId"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameBoardHasWon"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameBoardHasWon"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameBoardTimeElapsed"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameBoardTimeElapsed"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameBoardTotalPlaysCount"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameBoardTotalPlaysCount"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameIsFlawlessBinding"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameIsFlawlessBinding"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "zipGamePathBinding"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "zipGamePathBinding"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "zipNumBacktracksBinding"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "zipNumBacktracksBinding"
+			}
+		],
+		"requestMetadata": {
+			"$type": "proto.sdui.common.RequestMetadata"
+		},
+		"screenId": "com.linkedin.sdui.flagshipnav.games.GamePlayDesktopPage",
+		"states": [
+			{
+				"key": "gameBoardPuzzleId",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "longValue",
+				"value": {
+					"type": "bigint",
+					"value": "307"
+				}
+			},
+			{
+				"key": "gameBoardProfileId",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "stringValue",
+				"value": "ACoAAFCCtoIBERNjl2qb4Wn8lXPhV8zDhhL2MS0"
+			},
+			{
+				"key": "gameBoardHasWon",
+				"namespace": "MemoryNamespace",
+				"value": false
+			},
+			{
+				"key": "gameBoardTimeElapsed",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "longValue",
+				"value": {
+					"type": "bigint",
+					"value": "139206"
+				}
+			},
+			{
+				"key": "gameBoardTotalPlaysCount",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "intValue",
+				"value": 198
+			},
+			{
+				"key": "gameIsFlawlessBinding",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "booleanValue",
+				"value": false
+			},
+			{
+				"key": "zipGamePathBinding",
+				"namespace": "MemoryNamespace",
+				"value": [
+					"10",
+					"9",
+					"8",
+					"15",
+					"16",
+					"17",
+					"24",
+					"31",
+					"30",
+					"23",
+					"22",
+					"21",
+					"14",
+					"7",
+					"0",
+					"1",
+					"2",
+					"3",
+					"4",
+					"5",
+					"6",
+					"13",
+					"20",
+					"19",
+					"12",
+					"11",
+					"18",
+					"25",
+					"32",
+					"39",
+					"38",
+					"37",
+					"36",
+					"29",
+					"28",
+					"35",
+					"42"
+				]
+			},
+			{
+				"key": "zipNumBacktracksBinding",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "intValue",
+				"value": 4
+			}
+		]
+	},
+	"requestId": "updateGameState",
+	"serverRequest": {
+		"$type": "proto.sdui.actions.core.ServerRequest",
+		"isApfcEnabled": false,
+		"isStreaming": false,
+		"requestedArguments": {
+			"$type": "proto.sdui.actions.requests.RequestedArguments",
+			"payload": {
+				"gameTypeId": "6",
+				"isBonusGame": false,
+				"isFlawless": {
+					"key": "gameIsFlawlessBinding",
+					"namespace": "MemoryNamespace"
+				},
+				"isGameEnded": {
+					"key": "gameBoardHasWon",
+					"namespace": "MemoryNamespace"
+				},
+				"numBacktracks": {
+					"key": "zipNumBacktracksBinding",
+					"namespace": "MemoryNamespace"
+				},
+				"playRecord": {
+					"key": "zipGamePathBinding",
+					"namespace": "MemoryNamespace"
+				},
+				"profileId": {
+					"key": "gameBoardProfileId",
+					"namespace": "MemoryNamespace"
+				},
+				"puzzleId": {
+					"key": "gameBoardPuzzleId",
+					"namespace": "MemoryNamespace"
+				},
+				"timeElapsed": {
+					"key": "gameBoardTimeElapsed",
+					"namespace": "MemoryNamespace"
+				},
+				"totalPlaysCount": {
+					"key": "gameBoardTotalPlaysCount",
+					"namespace": "MemoryNamespace"
+				}
+			},
+			"requestedStateKeys": [
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameBoardPuzzleId"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameBoardPuzzleId"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameBoardProfileId"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameBoardProfileId"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameBoardHasWon"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameBoardHasWon"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameBoardTimeElapsed"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameBoardTimeElapsed"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameBoardTotalPlaysCount"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameBoardTotalPlaysCount"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameIsFlawlessBinding"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameIsFlawlessBinding"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "zipGamePathBinding"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "zipGamePathBinding"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "zipNumBacktracksBinding"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "zipNumBacktracksBinding"
+				}
+			],
+			"requestMetadata": {
+				"$type": "proto.sdui.common.RequestMetadata"
+			}
+		},
+		"requestId": "updateGameState",
+		"rumPageKey": ""
+	},
+	"states": [
+		{
+			"key": "gameBoardPuzzleId",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "longValue",
+			"value": {
+				"type": "bigint",
+				"value": "307"
+			}
+		},
+		{
+			"key": "gameBoardProfileId",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "stringValue",
+			"value": "ACoAAFCCtoIBERNjl2qb4Wn8lXPhV8zDhhL2MS0"
+		},
+		{
+			"key": "gameBoardHasWon",
+			"namespace": "MemoryNamespace",
+			"value": false
+		},
+		{
+			"key": "gameBoardTimeElapsed",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "longValue",
+			"value": {
+				"type": "bigint",
+				"value": "139206"
+			}
+		},
+		{
+			"key": "gameBoardTotalPlaysCount",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "intValue",
+			"value": 198
+		},
+		{
+			"key": "gameIsFlawlessBinding",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "booleanValue",
+			"value": false
+		},
+		{
+			"key": "zipGamePathBinding",
+			"namespace": "MemoryNamespace",
+			"value": [
+				"10",
+				"9",
+				"8",
+				"15",
+				"16",
+				"17",
+				"24",
+				"31",
+				"30",
+				"23",
+				"22",
+				"21",
+				"14",
+				"7",
+				"0",
+				"1",
+				"2",
+				"3",
+				"4",
+				"5",
+				"6",
+				"13",
+				"20",
+				"19",
+				"12",
+				"11",
+				"18",
+				"25",
+				"32",
+				"39",
+				"38",
+				"37",
+				"36",
+				"29",
+				"28",
+				"35",
+				"42"
+			]
+		},
+		{
+			"key": "zipNumBacktracksBinding",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "intValue",
+			"value": 4
+		}
+	]
+}

@@ -1,0 +1,768 @@
+{
+	"requestedArguments": {
+		"$type": "proto.sdui.actions.requests.RequestedArguments",
+		"payload": {
+			"gameTypeId": "3",
+			"isBonusGame": false,
+			"isFlawless": {
+				"key": "gameIsFlawlessBinding",
+				"namespace": "MemoryNamespace"
+			},
+			"isGameEnded": {
+				"key": "gameBoardHasWon",
+				"namespace": "MemoryNamespace"
+			},
+			"playRecord": {
+				"key": "queensBoardStateBinding",
+				"namespace": "MemoryNamespace"
+			},
+			"profileId": {
+				"key": "gameBoardProfileId",
+				"namespace": "MemoryNamespace"
+			},
+			"puzzleId": {
+				"key": "gameBoardPuzzleId",
+				"namespace": "MemoryNamespace"
+			},
+			"solveOrder": {
+				"key": "queensSolveOrderBinding",
+				"namespace": "MemoryNamespace"
+			},
+			"timeElapsed": {
+				"key": "gameBoardTimeElapsed",
+				"namespace": "MemoryNamespace"
+			},
+			"totalPlaysCount": {
+				"key": "gameBoardTotalPlaysCount",
+				"namespace": "MemoryNamespace"
+			}
+		},
+		"requestedStateKeys": [
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameBoardPuzzleId"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameBoardPuzzleId"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameBoardProfileId"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameBoardProfileId"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameBoardHasWon"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameBoardHasWon"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameBoardTimeElapsed"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameBoardTimeElapsed"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameBoardTotalPlaysCount"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameBoardTotalPlaysCount"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "gameIsFlawlessBinding"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "gameIsFlawlessBinding"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "queensBoardStateBinding"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "queensBoardStateBinding"
+			},
+			{
+				"$type": "proto.sdui.StateKey",
+				"isEncrypted": false,
+				"key": {
+					"$type": "proto.sdui.Key",
+					"value": {
+						"$case": "id",
+						"id": "queensSolveOrderBinding"
+					}
+				},
+				"namespace": "MemoryNamespace",
+				"value": "queensSolveOrderBinding"
+			}
+		],
+		"requestMetadata": {
+			"$type": "proto.sdui.common.RequestMetadata"
+		},
+		"screenId": "com.linkedin.sdui.flagshipnav.games.GamePlayDesktopPage",
+		"states": [
+			{
+				"key": "gameBoardPuzzleId",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "longValue",
+				"value": {
+					"type": "bigint",
+					"value": "628"
+				}
+			},
+			{
+				"key": "gameBoardProfileId",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "stringValue",
+				"value": "ACoAAFCCtoIBERNjl2qb4Wn8lXPhV8zDhhL2MS0"
+			},
+			{
+				"key": "gameBoardHasWon",
+				"namespace": "MemoryNamespace",
+				"value": true
+			},
+			{
+				"key": "gameBoardTimeElapsed",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "longValue",
+				"value": {
+					"type": "bigint",
+					"value": "111526"
+				}
+			},
+			{
+				"key": "gameBoardTotalPlaysCount",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "intValue",
+				"value": 140
+			},
+			{
+				"key": "gameIsFlawlessBinding",
+				"namespace": "MemoryNamespace",
+				"originalProtoCase": "booleanValue",
+				"value": false
+			},
+			{
+				"key": "queensBoardStateBinding",
+				"namespace": "MemoryNamespace",
+				"value": [
+					"CROSS",
+					"QUEEN",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"QUEEN",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"QUEEN",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"QUEEN",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"QUEEN",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"QUEEN",
+					"QUEEN",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"CROSS",
+					"QUEEN",
+					"CROSS",
+					"CROSS",
+					"CROSS"
+				]
+			},
+			{
+				"key": "queensSolveOrderBinding",
+				"namespace": "MemoryNamespace",
+				"value": [
+					"green",
+					"gray",
+					"red"
+				]
+			}
+		]
+	},
+	"requestId": "updateGameState",
+	"serverRequest": {
+		"$type": "proto.sdui.actions.core.ServerRequest",
+		"isApfcEnabled": false,
+		"isStreaming": false,
+		"onClientRequestFailureAction": {
+			"actions": [
+				{
+					"$type": "proto.sdui.actions.core.ShowToast",
+					"value": {
+						"$type": "proto.sdui.actions.core.ShowToast",
+						"component": {
+							"key": null,
+							"props": {
+								"children": {
+									"key": null,
+									"props": {
+										"children": [
+											{
+												"key": null,
+												"props": {
+													"children": {
+														"key": null,
+														"props": {
+															"children": [
+																{
+																	"key": null,
+																	"props": {
+																		"aria-hidden": true,
+																		"aria-label": "",
+																		"className": "_46b95129",
+																		"color": "negative",
+																		"display": "block",
+																		"flexShrink": 0,
+																		"height": "3x",
+																		"imageId": 239,
+																		"width": "3x"
+																	},
+																	"ref": null,
+																	"type": {
+																		"_payload": {
+																			"_response": {
+																				"_buffer": [],
+																				"_chunks": {},
+																				"_moduleLoading": null,
+																				"_rowID": 0,
+																				"_rowLength": 0,
+																				"_rowState": 0,
+																				"_rowTag": 0,
+																				"_stringDecoder": {}
+																			},
+																			"reason": null,
+																			"status": "fulfilled"
+																		}
+																	}
+																},
+																{
+																	"key": null,
+																	"props": {
+																		"children": [
+																			"There was an issue saving your game. Please refresh to try again."
+																		],
+																		"className": "f524c10e d0890e32 d19283db _1c828acc _72ed38d7 _3f1fd332 _4050541d _59d01a7d f3770b68 _1c84816b"
+																	},
+																	"ref": null,
+																	"type": "p"
+																}
+															],
+															"direction": "horizontal"
+														},
+														"ref": null,
+														"type": {
+															"_payload": {
+																"_response": {
+																	"_buffer": [],
+																	"_chunks": {},
+																	"_moduleLoading": null,
+																	"_rowID": 0,
+																	"_rowLength": 0,
+																	"_rowState": 0,
+																	"_rowTag": 0,
+																	"_stringDecoder": {}
+																},
+																"reason": null,
+																"status": "fulfilled"
+															}
+														}
+													},
+													"className": "_57fc8548 _34009671 _30ab7911 _4b2cb001 _290be564 _6ecce631 _4b4b861f _4d368264 _7f345276 _8ba85609 _237b9c39 e0fff97d e1c6c69e _71173f3d"
+												},
+												"ref": null,
+												"type": "div"
+											},
+											{
+												"key": null,
+												"props": {
+													"buttonProps": {
+														"aria-label": "Close",
+														"category": "ghost",
+														"icon": {
+															"key": null,
+															"props": {
+																"aria-hidden": true,
+																"aria-label": "",
+																"className": "_46b95129",
+																"display": "block",
+																"height": "2x",
+																"imageId": 206,
+																"minHeight": "2x",
+																"minWidth": "2x",
+																"width": "2x"
+															},
+															"ref": null,
+															"type": {
+																"_payload": {
+																	"_response": {
+																		"_buffer": [],
+																		"_chunks": {},
+																		"_moduleLoading": null,
+																		"_rowID": 0,
+																		"_rowLength": 0,
+																		"_rowState": 0,
+																		"_rowTag": 0,
+																		"_stringDecoder": {}
+																	},
+																	"reason": null,
+																	"status": "fulfilled"
+																}
+															}
+														},
+														"iconEnding": false,
+														"isolation": "isolate",
+														"isSingleLine": false,
+														"location": "topEnd",
+														"offsetEnd": "1x",
+														"size": "small",
+														"tapTarget": "default",
+														"text": null,
+														"useDeprecatedStyle": false
+													},
+													"triggers": [
+														{
+															"$type": "proto.sdui.triggers.Trigger",
+															"action": {
+																"actions": [
+																	{
+																		"$type": "proto.sdui.actions.core.RemoveUi",
+																		"value": {
+																			"$type": "proto.sdui.actions.core.RemoveUi",
+																			"componentKey": {
+																				"$type": "proto.sdui.Key",
+																				"value": {
+																					"$case": "id",
+																					"id": "auto-component-84c6250c-8795-4316-88ee-f954070e1a68"
+																				}
+																			},
+																			"key": "auto-component-84c6250c-8795-4316-88ee-f954070e1a68"
+																		}
+																	}
+																]
+															},
+															"delegateComponentKey": "",
+															"type": {
+																"$case": "click",
+																"click": {
+																	"$type": "proto.sdui.triggers.ClickTrigger"
+																}
+															}
+														}
+													]
+												},
+												"ref": null,
+												"type": {
+													"_payload": {
+														"_response": {
+															"_buffer": [],
+															"_chunks": {},
+															"_moduleLoading": null,
+															"_rowID": 0,
+															"_rowLength": 0,
+															"_rowState": 0,
+															"_rowTag": 0,
+															"_stringDecoder": {}
+														},
+														"reason": null,
+														"status": "fulfilled"
+													}
+												}
+											}
+										],
+										"className": "c1ff220b aa7f82f9 e0fff97d",
+										"componentkey": "auto-component-84c6250c-8795-4316-88ee-f954070e1a68"
+									},
+									"ref": null,
+									"type": "div"
+								},
+								"componentKey": "auto-component-84c6250c-8795-4316-88ee-f954070e1a68"
+							},
+							"ref": null,
+							"type": {
+								"_payload": {
+									"_response": {
+										"_buffer": [],
+										"_chunks": {},
+										"_moduleLoading": null,
+										"_rowID": 0,
+										"_rowLength": 0,
+										"_rowState": 0,
+										"_rowTag": 0,
+										"_stringDecoder": {}
+									},
+									"reason": null,
+									"status": "fulfilled"
+								}
+							}
+						},
+						"duration": "ToastDuration_UNKNOWN",
+						"key": "auto-component-84c6250c-8795-4316-88ee-f954070e1a68"
+					}
+				}
+			]
+		},
+		"requestedArguments": {
+			"$type": "proto.sdui.actions.requests.RequestedArguments",
+			"payload": {
+				"gameTypeId": "3",
+				"isBonusGame": false,
+				"isFlawless": {
+					"key": "gameIsFlawlessBinding",
+					"namespace": "MemoryNamespace"
+				},
+				"isGameEnded": {
+					"key": "gameBoardHasWon",
+					"namespace": "MemoryNamespace"
+				},
+				"playRecord": {
+					"key": "queensBoardStateBinding",
+					"namespace": "MemoryNamespace"
+				},
+				"profileId": {
+					"key": "gameBoardProfileId",
+					"namespace": "MemoryNamespace"
+				},
+				"puzzleId": {
+					"key": "gameBoardPuzzleId",
+					"namespace": "MemoryNamespace"
+				},
+				"solveOrder": {
+					"key": "queensSolveOrderBinding",
+					"namespace": "MemoryNamespace"
+				},
+				"timeElapsed": {
+					"key": "gameBoardTimeElapsed",
+					"namespace": "MemoryNamespace"
+				},
+				"totalPlaysCount": {
+					"key": "gameBoardTotalPlaysCount",
+					"namespace": "MemoryNamespace"
+				}
+			},
+			"requestedStateKeys": [
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameBoardPuzzleId"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameBoardPuzzleId"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameBoardProfileId"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameBoardProfileId"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameBoardHasWon"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameBoardHasWon"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameBoardTimeElapsed"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameBoardTimeElapsed"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameBoardTotalPlaysCount"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameBoardTotalPlaysCount"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "gameIsFlawlessBinding"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "gameIsFlawlessBinding"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "queensBoardStateBinding"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "queensBoardStateBinding"
+				},
+				{
+					"$type": "proto.sdui.StateKey",
+					"isEncrypted": false,
+					"key": {
+						"$type": "proto.sdui.Key",
+						"value": {
+							"$case": "id",
+							"id": "queensSolveOrderBinding"
+						}
+					},
+					"namespace": "MemoryNamespace",
+					"value": "queensSolveOrderBinding"
+				}
+			],
+			"requestMetadata": {
+				"$type": "proto.sdui.common.RequestMetadata"
+			}
+		},
+		"requestId": "updateGameState",
+		"rumPageKey": ""
+	},
+	"states": [
+		{
+			"key": "gameBoardPuzzleId",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "longValue",
+			"value": {
+				"type": "bigint",
+				"value": "628"
+			}
+		},
+		{
+			"key": "gameBoardProfileId",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "stringValue",
+			"value": "ACoAAFCCtoIBERNjl2qb4Wn8lXPhV8zDhhL2MS0"
+		},
+		{
+			"key": "gameBoardHasWon",
+			"namespace": "MemoryNamespace",
+			"value": true
+		},
+		{
+			"key": "gameBoardTimeElapsed",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "longValue",
+			"value": {
+				"type": "bigint",
+				"value": "111526"
+			}
+		},
+		{
+			"key": "gameBoardTotalPlaysCount",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "intValue",
+			"value": 140
+		},
+		{
+			"key": "gameIsFlawlessBinding",
+			"namespace": "MemoryNamespace",
+			"originalProtoCase": "booleanValue",
+			"value": false
+		},
+		{
+			"key": "queensBoardStateBinding",
+			"namespace": "MemoryNamespace",
+			"value": [
+				"CROSS",
+				"QUEEN",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"QUEEN",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"QUEEN",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"QUEEN",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"QUEEN",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"QUEEN",
+				"QUEEN",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"CROSS",
+				"QUEEN",
+				"CROSS",
+				"CROSS",
+				"CROSS"
+			]
+		},
+		{
+			"key": "queensSolveOrderBinding",
+			"namespace": "MemoryNamespace",
+			"value": [
+				"green",
+				"gray",
+				"red"
+			]
+		}
+	]
+}
