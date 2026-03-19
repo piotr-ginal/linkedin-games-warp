@@ -7,6 +7,7 @@ Supported games
 - Mini Sudoku
 - Tango
 - Queens
+- Patches
 
 ## Installation
 
@@ -24,3 +25,7 @@ That's it. Open any of the supported games, solve it, and your time will display
 | Tango                                        | Zip                                |
 |---------------------------------------------:|:-----------------------------------|
 | ![Tango](.screenshots/tango.png)             | ![Zip](.screenshots/zip.png)       |
+
+| Patches                                      |                                    |
+|---------------------------------------------:|:-----------------------------------|
+| ![Tango](.screenshots/patches.png)           |                                    |
