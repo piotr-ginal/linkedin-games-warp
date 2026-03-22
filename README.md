@@ -8,6 +8,7 @@ Supported games
 - Tango
 - Queens
 - Patches
+- Crossclimb
 
 ## Installation
 
@@ -18,14 +19,14 @@ Supported games
 That's it. Open any of the supported games, solve it, and your time will display as two seconds. The 2-second value is applied server-side (and submitted), not only rendered in your browser UI.
 
 
-| Mini Sudoku                                  | Queens                             |
-|---------------------------------------------:|:-----------------------------------|
-| ![Mini Sudoku](.screenshots/mini_sudoku.png) | ![Queens](.screenshots/queens.png) |
+| Mini Sudoku                                  | Queens                                     |
+|---------------------------------------------:|:-------------------------------------------|
+| ![Mini Sudoku](.screenshots/mini_sudoku.png) | ![Queens](.screenshots/queens.png)         |
 
-| Tango                                        | Zip                                |
-|---------------------------------------------:|:-----------------------------------|
-| ![Tango](.screenshots/tango.png)             | ![Zip](.screenshots/zip.png)       |
+| Tango                                        | Zip                                        |
+|---------------------------------------------:|:-------------------------------------------|
+| ![Tango](.screenshots/tango.png)             | ![Zip](.screenshots/zip.png)               |
 
-| Patches                                      |                                    |
-|---------------------------------------------:|:-----------------------------------|
-| ![Tango](.screenshots/patches.png)           |                                    |
+| Patches                                      |  Crossclimb                                |
+|---------------------------------------------:|:-------------------------------------------|
+| ![Tango](.screenshots/patches.png)           | ![Crossclimb](.screenshots/crossclimb.png) |
