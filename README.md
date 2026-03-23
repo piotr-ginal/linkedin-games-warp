@@ -20,13 +20,9 @@ That's it. Open any of the supported games, solve it, and your time will display
 
 
 | Mini Sudoku                                  | Queens                                     |
-|---------------------------------------------:|:-------------------------------------------|
+| :------------------------------------------- | :----------------------------------------- |
 | ![Mini Sudoku](.screenshots/mini_sudoku.png) | ![Queens](.screenshots/queens.png)         |
-
-| Tango                                        | Zip                                        |
-|---------------------------------------------:|:-------------------------------------------|
+| **Tango**                                    | **Zip**                                    |
 | ![Tango](.screenshots/tango.png)             | ![Zip](.screenshots/zip.png)               |
-
-| Patches                                      |  Crossclimb                                |
-|---------------------------------------------:|:-------------------------------------------|
-| ![Tango](.screenshots/patches.png)           | ![Crossclimb](.screenshots/crossclimb.png) |
+| **Patches**                                  | **Crossclimb**                             |
+| ![Patches](.screenshots/patches.png)         | ![Crossclimb](.screenshots/crossclimb.png) |
