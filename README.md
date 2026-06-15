@@ -9,6 +9,7 @@ Supported games
 - Queens
 - Patches
 - Crossclimb
+- Wend
 
 ## Installation
 
@@ -26,3 +27,5 @@ That's it. Open any of the supported games, solve it, and your time will display
 | ![Tango](.screenshots/tango.png)             | ![Zip](.screenshots/zip.png)               |
 | **Patches**                                  | **Crossclimb**                             |
 | ![Patches](.screenshots/patches.png)         | ![Crossclimb](.screenshots/crossclimb.png) |
+| **Wend**                                     |                                            |
+| ![Patches](.screenshots/wend.png)            |                                            |
